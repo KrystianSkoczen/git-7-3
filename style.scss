@@ -1,0 +1,37 @@
+$biel: #fff;
+
+body {
+	background-color: #ff1616;
+	margin-left: 20%;
+}
+h1 {
+	margin: 0;
+	color: $biel;
+	font-size: 35px;
+}
+h2 {
+	margin: 0;
+	padding: 5px 0;
+	color: $biel;
+	font-size: 30px;
+}
+p {
+	color: #ff1616;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	border: solid 2px $biel;
+	width: 50%;
+	background-color: $biel;
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+@media (max-width: 767px) {
+	body {
+		margin: 0 5%;
+	}
+	p {
+		width: 100%;
+	}
+}
